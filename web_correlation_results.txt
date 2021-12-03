@@ -1,0 +1,6 @@
+Orthogonality: 0.6328987809829635
+Memory efficiency: 0.2637944526216885
+Execution speed: -0.21594029779898802
+High level: 0.5208703799452775
+Dynamically typed: -0.08301253841529983
+Contemporary features: 0.7726987978745905
