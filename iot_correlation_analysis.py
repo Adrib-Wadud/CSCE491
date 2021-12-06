@@ -6,7 +6,7 @@ features = ['Orthogonality', 'Memory efficiency', 'Execution speed', 'High level
 
 
 Map = {}
-output_file = open("iot_correlation_results.txt", "w")
+output_file = open("results/iot_correlation_results.txt", "w")
 
 for i in range(len(csv_files)):
     file_name = 'data/' + csv_files[i]

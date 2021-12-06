@@ -13,7 +13,7 @@ Y = df['n']
 regr = linear_model.LinearRegression()
 regr.fit(X,Y)
 
-output_file = open("web_prediction_results.txt", "w")
+output_file = open("results/web_prediction_results.txt", "w")
 
 for index in df.index:
     X_pred = [df['Ortho'][index],df['Contem'][index],df['DT'][index],df['HL'][index],df['Exec'][index],df['Mem'][index],df['n-5'][index],df['n-4'][index],df['n-3'][index],df['n-2'][index],df['n-1'][index],df['n'][index]]
